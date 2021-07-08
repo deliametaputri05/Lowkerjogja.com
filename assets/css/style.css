@@ -2416,3 +2416,20 @@ section {
   font-size: 13px;
   color: #012970;
 }
+
+.grouppassword input[type=text]{
+  padding-right: 40%;
+  }
+  
+  .grouppassword{
+    position: relative;
+  }
+  
+  .grouppassword i{
+    position: absolute;
+    right: 0;
+    bottom: 10px;
+    padding: 1px 10px;
+    color: #888;
+  }
+  
