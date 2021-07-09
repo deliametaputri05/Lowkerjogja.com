@@ -793,6 +793,90 @@ section {
   color: #848484;
 }
 
+/*===========================
+      08.SERVICES css 
+===========================*/
+.single_services {
+  -webkit-transition: all 0.3s ease-out 0s;
+  -moz-transition: all 0.3s ease-out 0s;
+  -ms-transition: all 0.3s ease-out 0s;
+  -o-transition: all 0.3s ease-out 0s;
+  transition: all 0.3s ease-out 0s;
+  background-color: #fff;
+  padding: 30px 25px;
+  border-radius: 10px; }
+  .single_services::before {
+    position: absolute;
+    z-index: -1;
+    content: '';
+    bottom: -10px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    width: 80%;
+    height: 90%;
+    background-color: #e5f55a;
+    opacity: 0;
+    filter: blur(10px);
+    -webkit-transition: all 0.3s ease-out 0s;
+    -moz-transition: all 0.3s ease-out 0s;
+    -ms-transition: all 0.3s ease-out 0s;
+    -o-transition: all 0.3s ease-out 0s;
+    transition: all 0.3s ease-out 0s; }
+  .single_services .services_icon i {
+    color:  #e5f55a;
+    -webkit-transition: all 0.3s ease-out 0s;
+    -moz-transition: all 0.3s ease-out 0s;
+    -ms-transition: all 0.3s ease-out 0s;
+    -o-transition: all 0.3s ease-out 0s;
+    transition: all 0.3s ease-out 0s;
+    font-size: 46px; }
+  .single_services .services_content {
+    padding-left: 20px; }
+    .single_services .services_content .title a {
+      font-size: 24px;
+      font-weight: 500;
+      color: #3C4559;
+      -webkit-transition: all 0.3s ease-out 0s;
+      -moz-transition: all 0.3s ease-out 0s;
+      -ms-transition: all 0.3s ease-out 0s;
+      -o-transition: all 0.3s ease-out 0s;
+      transition: all 0.3s ease-out 0s; }
+      @media only screen and (min-width: 992px) and (max-width: 1199px) {
+        .single_services .services_content .title a {
+          font-size: 18px; } }
+    .single_services .services_content p {
+      margin-top: 10px;
+      -webkit-transition: all 0.3s ease-out 0s;
+      -moz-transition: all 0.3s ease-out 0s;
+      -ms-transition: all 0.3s ease-out 0s;
+      -o-transition: all 0.3s ease-out 0s;
+      transition: all 0.3s ease-out 0s; }
+    .single_services .services_content .more {
+      font-size: 16px;
+      font-weight: 500;
+      color: #e29e21;
+      -webkit-transition: all 0.3s ease-out 0s;
+      -moz-transition: all 0.3s ease-out 0s;
+      -ms-transition: all 0.3s ease-out 0s;
+      -o-transition: all 0.3s ease-out 0s;
+      transition: all 0.3s ease-out 0s;
+      margin-top: 10px; }
+      .single_services .services_content .more i {
+        margin-left: 5px;
+        font-size: 18px; }
+  .single_services:hover {
+    background-color:  #e5f55a }
+    .single_services:hover::before {
+      opacity: 0.5; }
+    .single_services:hover .services_icon i {
+      color: #fff; }
+    .single_services:hover .services_content .title a {
+      color: #fff; }
+    .single_services:hover .services_content p {
+      color: #fff; }
+    .single_services:hover .services_content .more {
+      color: #fff; }
 /*--------------------------------------------------------------
 # Services
 --------------------------------------------------------------*/
