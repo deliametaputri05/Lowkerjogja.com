@@ -2437,3 +2437,22 @@ section {
     color: #888;
   }
   
+  .card{
+      box-shadow: 2px 2px 2px rgba(0,0,0,0.2);
+  }
+
+  .coldeadline input[type=text]{
+    padding-right: 40%;
+    }
+    
+    .coldeadline{
+      position: relative;
+    }
+    
+    .coldeadline i{
+      position: absolute;
+      right: 0;
+      bottom: 50px;
+      padding: 1px 15px;
+      color: #888;
+    }
