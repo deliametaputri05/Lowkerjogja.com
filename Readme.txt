@@ -1,6 +1,8 @@
-Thanks for downloading this template!
+Project Magang
+WEB Lowkerjogja.com
 
-Template Name: FlexStart
-Template URL: https://bootstrapmade.com/flexstart-bootstrap-startup-template/
-Author: BootstrapMade.com
-License: https://bootstrapmade.com/license/
+Team :
+- Delia Meta Putri
+- Fatimah Nur Suswantoro
+- Hiza Aliza Gaizka
+- Nisa Fadilah
