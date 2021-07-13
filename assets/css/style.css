@@ -2471,7 +2471,8 @@ section {
     .coldeadline i{
       position: absolute;
       right: 0;
-      bottom: 50px;
+      top: 55px;
       padding: 1px 15px;
       color: #888;
+      left: 20px;
     }
