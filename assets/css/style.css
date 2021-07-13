@@ -27,7 +27,7 @@ a:hover {
   text-decoration: none;
 }
 
-a:link{
+a:link {
   color: #dcdcdc;
 }
 
@@ -1566,7 +1566,7 @@ section {
 .recent-blog-posts .post-box {
   box-shadow: 0px 0 30px rgba(1, 41, 112, 0.08);
   transition: 0.3s;
-  height: 100%;
+  /* height: 100%; */
   overflow: hidden;
   padding: 30px;
   border-radius: 8px;
@@ -2440,19 +2440,18 @@ section {
   color: #012970;
 }
 
-.grouppassword input[type=text]{
+.grouppassword input[type="text"] {
   padding-right: 40%;
-  }
-  
-  .grouppassword{
-    position: relative;
-  }
-  
-  .grouppassword i{
-    position: absolute;
-    right: 0;
-    bottom: 10px;
-    padding: 1px 10px;
-    color: #888;
-  }
-  
+}
+
+.grouppassword {
+  position: relative;
+}
+
+.grouppassword i {
+  position: absolute;
+  right: 0;
+  bottom: 10px;
+  padding: 1px 10px;
+  color: #888;
+}
