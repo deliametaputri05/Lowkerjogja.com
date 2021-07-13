@@ -24,6 +24,7 @@
   <link href="assets/css/owl.carousel.min.css" rel="stylesheet">
   <link href="assets/css/jquery-ui.min.css" rel="stylesheet">
   <link href="assets/css/nice-select.css" rel="stylesheet">
+  <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet"> 
   <!-- Template Main CSS File -->
   <link href="assets/css/style1.css" rel="stylesheet">
   <!-- =======================================================
@@ -42,14 +43,13 @@
 		<div class="row justify-content-center">
 			<div class="col-11 col-sm-9 col-md-7 col-lg-6 col-xl-5 text-center p-0 mt-3 mb-2">
 				<div class="card px-0 pt-4 pb-0 mt-3 mb-3">
-					<h2 id="heading">Sign Up Your User Account</h2>
-					<p>Fill all form field to go to next step</p>
+					<h2 id="heading">Post vacancies and find the best candidates</h2>
 					<form id="msform">
 						<!-- progressbar -->
 						<ul id="progressbar">
 							<li class="active" id="account"><strong>Account</strong></li>
-							<li id="personal"><strong>Personal</strong></li>
-							<li id="payment"><strong>Image</strong></li>
+							<li class="active" id="account"><strong>Personal</strong></li>
+							<li class="active" id="account"><strong>Image</strong></li>
 						</ul>
 						<div class="progress">
 							<div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuemin="0" aria-valuemax="100"></div>
@@ -61,7 +61,6 @@
 								<div class="container px-4">
                                         <div class="row gx-5">
                                           <div class="col">
-                                           
                                                <label for="job" style="padding-bottom: 10px;"><strong>Job Position</strong> </label>
                                                <input id="password" type="password" class="form-control" name="password" placeholder="Job Position">
                                             </div>
@@ -93,10 +92,9 @@
 									  <div class="container px-4">
                                         <div class="row gx-5">
                                           <div class="col">
-                                           
-											<label for="job" style="padding-bottom: 10px;padding-top: 10px;"><strong>Deadline for submitting application</strong> </label>
-											<input id="password" type="password" class="form-control" name="password" placeholder="Job Position">
-																				   <i class="fas fa-calendar-week"></i>
+                                           <label for="job" style="padding-bottom: 10px;padding-top: 10px;"><strong>Deadline for submitting application</strong> </label>
+                                       		<input id="password" type="password" class="form-control" name="password" placeholder="	Select date" style="width: 300px;">
+                                    		<i class="fas fa-calendar-week"></i>
 	 
                                             </div>
                                           <div class="col">
@@ -124,16 +122,16 @@
 						<!-- fieldsets -->
 						<fieldset>
 							<div class="form-card">
-								<div class="row">
-									
-								</div> <br><br>
 								<h2 class="purple-text text-center"><strong>SUCCESS !</strong></h2> <br>
 								<div class="row justify-content-center">
-									<div class="col-3"> <img src="assets/img/check.jpg" class="fit-image"> </div>
+									<div class="col-5"> <img src="assets/img/check.jpg" class="fit-image"> </div>
 								</div> <br><br>
 								<div class="row justify-content-center">
-									<div class="col-7 text-center">
+									<div class="col-10 text-center">
 										<h5 class="purple-text text-center">Jobs Posted</h5>
+										<a href="index.html" class="btn btn-primary" style="width: 350px;" data-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
+											View Job Posts
+										  </a>
 									</div>
 								</div>
 							</div>
