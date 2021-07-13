@@ -37,10 +37,34 @@
   <link href="assets/css/style.css" rel="stylesheet">
 
   <style>
-    .about-middle {
-      padding-right: 100px;
+    .about {
       font-weight: bold;
+      color: rgb(0, 0, 0);
     }
+    .about:hover{
+      background-color: #fff;
+      color: #4154f1;
+    }
+    .about:active{
+      color: #4154f1;
+    }
+    .saved{
+      background-color: #fff; 
+      box-shadow: 0px 0 20px rgba(0, 4, 10, 0.08);
+      border-radius: 5px;
+      padding: 15px;
+    }
+
+   .gambar{
+      width: 80px;
+      float: left;
+      margin:0 8px 4px 0;
+      border-radius: 50px;
+      margin-right: 10px;
+  
+
+    }
+    
   </style>
 
 </head>
@@ -59,7 +83,7 @@
       <nav id="navbar" class="navbar">
         <ul>
           <li><a class="nav-link scrollto active" href="#hero">Product And Service</a></li>
-          <li><a class="nav-link scrollto" href="#about">FAQ</a></li>
+          <li><a class="nav-link scrollto" href="corp-faq.html">FAQ</a></li>
 
           <li style="padding-left: 500px;">
             <div>
@@ -111,15 +135,17 @@
 
               <div class="row align-items-center">
                 <div class="col" style="padding-top: 30px;">
-                  <h6 style="font-weight: bold;"><i class="bi bi-building"
-                      style="float: left; padding-right: 10px; font-size: 30px;"></i>About Corporate</h6>
+                  <a href="corp-about.html" class="about"><h6 style="font-weight: bold;"><i class="bi bi-building"
+                    style="float: left; padding-right: 10px; font-size: 30px;"></i>About Corporate</h6></a>
+                  
                 </div>
               </div>
 
               <div class="row align-items-center">
                 <div class="col" style="padding-top: 15px;">
-                  <h6 style="font-weight: bold;"><i class="bi bi-bookmark-dash"
-                      style="float: left; padding-right: 10px; font-size: 30px;"></i>Saved Candidate</h6>
+                  <a href="corp-saved-candidate.html" class="about"><h6 style="font-weight: bold;"><i class="bi bi-bookmark-dash"
+                    style="float: left; padding-right: 10px; font-size: 30px;"></i>Saved Candidate</h6></a>
+                
                 </div>
               </div>
 
@@ -128,37 +154,44 @@
           </div>
         </div>
 
-
         <div class="col-lg-8">
 
           <div class="post-box" style="height: 450px; background-color: #F9FAFF;">
 
-            <div class="row align-items-center">
-              <div class="col">
-                <h4 style="font-weight: bold;">About Corporate</h4>
-              </div>
-              <div class="row align-items-start" style="padding-top: 10px;">
-                <div class="col">
+            <div class="row" >
 
-                  <textarea class="form-control" rows="10">Our dream to offer mobile games to the entire planet through our products is about to become a reality. 
-
-We owe our success to the talent and passion of our teams. It is because of their dedication to excellence and attention to detail that we can offer games of unparalleled quality to our millions of fans.
-                    
-We also have a great network of partners to help us deliver cool new games to your favorite device. Think Universal, Illumination Disney®, Marvel®, Hasbro®, Fox Digital Entertainment, Mattel®, Ferrari® and many more.
-                  </textarea>
-
-
-                  <a href="#about" style="margin-left: 350px ;"
-                    class="btn-get-started-new scrollto d-inline-flex align-items-center justify-content-center align-self-center">
-                    <span style="padding: 5px;">Cancel</span>
-                    <!-- <i class="bi bi-arrow-right"></i> -->
-                  </a>
-                  <a href="#about" style="margin-left: 10px;"
-                    class="btn-get-started scrollto d-inline-flex align-items-center justify-content-center align-self-center">
-                    <span style="padding: 5px;">Save</span>
-                    <!-- <i class="bi bi-arrow-right"></i> -->
-                  </a>
+              <div class="col-lg-8" >
+                  
+                <div class="saved">
+                
+                    <div class="row align-items-start">
+                        <div class="col">
+                          <div >  
+                            <i style=" font-size: 20px; color: #BEBFC0; float: right;" class="bi bi-trash-fill"></i>
+                              <img src="assets/img/team/team-3.jpg" class="gambar" width="80px">
+                              <br>
+                              <h6 style="font-weight: bold;">John</h6>
+                              <h6 style="color:#A5B2C2; font-size: 12
+                              px;">As a</h6>
+                             
+                          </div>
+      
+                        </div>
+                        <div class="row align-items-start" style="padding-top: 20px;">
+                        
+                            <ul style="list-style: none;  align-items: center; display: flex;">
+                              <li style="padding-right: 10px;">Skill 1</li>
+                              <li style="padding-right: 10px;">Skill 2</li>
+                              <li>Skill 3</li>
+                            </ul>
+                         
+                          
+                         
+                        </div>
+                    </div>
                 </div>
+              </div>
+              </div>
               </div>
 
             </div>
